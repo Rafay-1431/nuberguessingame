@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple game gessing game</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: bisque;
+            font-family: sans-serif;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20%;
+        }
+        h1{
+            font-size: 35px;
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h1>Number guessing game</h1>
+    <p>Pls choose number between 1 to 10</p>
+    <input type="number" id="userinput" placeholder="Pls write your guess">
+    <button onclick="checkgame()">Sumbit your guess</button>
+    <h3 id="result"></h3>
+    <script src="app.js"></script>
+    </div>
+</body>
+</html>
