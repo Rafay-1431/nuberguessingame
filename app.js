@@ -8,9 +8,8 @@ function checkgame() {
         display.style.color = "green"
     }
     else {
-        display.innerHTML = "correct num " + computernum + "you lose"
+        display.innerHTML = "correct num : " + computernum + " you lose"
         display.style.color = "red"
-         display.style.boxShadow = "0 10px 30px rgba(255, 0, 0, 0.6)"
+        display.style.boxShadow = "0 10px 30px rgba(255, 0, 0, 0.6)"
     }
-
 }
